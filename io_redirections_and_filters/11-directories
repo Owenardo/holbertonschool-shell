@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "directorios: $(find . -type d ! -name '.' ! -name '..' | wc -l)"
+count=$(find . -type d -not -name '.' -not -name '..' | wc -l)
