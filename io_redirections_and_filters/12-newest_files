@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -lt --time=mod --sort=time | grep '^-' | head -n 10

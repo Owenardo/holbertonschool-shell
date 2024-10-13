@@ -1,2 +1,2 @@
 #!/bin/bash
-count=$(find . -type d ! -name '.' ! -name '..' | wc -l)
+echo "Numero de directorios: $(ls -R | grep ':$' | wc -l)"
