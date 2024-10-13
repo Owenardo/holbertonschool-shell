@@ -1,2 +1,2 @@
-#/bin/bash
+#!/bin/bash
 echo "numero de directorios: $(find . -type d -not -name '.' -not -name '..' | wc -l)"~
