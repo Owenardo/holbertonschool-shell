@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Numero de directorios: $(ls -R | grep ':$' | wc -l)"
+find "$1" -type d ! -path "$1" ! -path "$1/.." -print
