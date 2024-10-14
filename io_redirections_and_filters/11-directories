@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindpath -type d 1 | wc
+find . -mindpath 1 -type d | wc -l
